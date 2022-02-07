@@ -1,0 +1,9 @@
+*>#encabezado,*>#intro{font-family: monospace}
+#encabezado{color: darkblue;
+background-color: lightblue}
+#intro{color: red;background-color: darkred}
+#Test{color: black;background-color: lightblue; font-family: 'Courier New'}
+#Test>p{color: green}
+.impar{background-color: lightgray}
+.par{background-color: darkgrey}
+.correcta{color: red;background-color: yellow}
