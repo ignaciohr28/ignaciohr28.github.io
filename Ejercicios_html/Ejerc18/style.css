@@ -1,0 +1,5 @@
+.imgcenter{display: block;margin-left: auto;margin-right: auto;width: 80%;}
+*{margin: 5px;padding: 5px;font-family: papyrus}
+body{background-color: black; color: white}
+h1{font-weight: bold;}
+h1:hover{color: black;background-color: orange}
