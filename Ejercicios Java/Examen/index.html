@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Examen 3º Evaluación TIC</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Examen final TICII</h1>
+  <h2>Qué he aprendido en TIC II</h2>
+  <p>
+    Durante este curso hemos aprendido ha programar una página web en html en el primer trimestre, ha darle estilo con CSS en el segundo trimestre y ha darle interactividad con javascript en el tercer trimestre.
+  </p>
+  <h2>Autoevaluación</h2>
+  <p>
+    En esta asignatura me merezco un 9 o un 10 ya que he resulto todos los ejercicios a tiempo y de manera correcta y he acabado todas las actividades extras de khan academy.
+  </p>
+  <h1>Parte con evaluacíon condicional para primera letra de nombre</h1>
+  <script>
+    alert("Bienvenido al examen final");
+    var frase = prompt("Introduzca su nombre");
+    alert(frase + ", bienvenido al examen");
+    if (frase[0] == "a" || frase[0] == "e" || frase[0] == "i" || frase[0] == "o" || frase[0] == "u") {
+      document.write("<p>La primera letra de tu nombre es " + frase[0] + " y es una vocal.</p>");
+    }
+    else {
+      document.write("<p>La primera letra de tu nombre es " + frase[0] + " y es una consonante.</p>");
+    };
+  </script>
+  <h1>Parte con bucle for sobre la variable nombre y condicional</h1>
+  <script>
+   for(i in frase){
+    if ((frase[i] == "a" || frase[i] == "e" || frase[i] == "i" || frase[i] == "o" || frase[i] == "u")){
+    document.write("<p>La letra " + i + " es una " + frase[i] + " es una vocal");
+    }
+     else {
+      document.write("<p>La letra " + i + " es una " + frase[i] + " es una consonante");
+     }
+   };
+  </script>
+</body>
+
+</html>
