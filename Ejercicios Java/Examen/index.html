@@ -23,7 +23,7 @@
     alert("Bienvenido al examen final");
     var frase = prompt("Introduzca su nombre");
     alert(frase + ", bienvenido al examen");
-    if (frase[0] == "a" || frase[0] == "e" || frase[0] == "i" || frase[0] == "o" || frase[0] == "u") {
+    if (frase[0] == "a" || frase[0] == "e" || frase[0] == "i" || frase[0] == "o" || frase[0] == "u" || frase[0] == "A" || frase[0] == "E" || frase[0] == "I" || frase[0] == "O" || frase[0] == "U"){
       document.write("<p>La primera letra de tu nombre es " + frase[0] + " y es una vocal.</p>");
     }
     else {
@@ -33,7 +33,7 @@
   <h1>Parte con bucle for sobre la variable nombre y condicional</h1>
   <script>
    for(i in frase){
-    if ((frase[i] == "a" || frase[i] == "e" || frase[i] == "i" || frase[i] == "o" || frase[i] == "u")){
+    if ((frase[i] == "a" || frase[i] == "e" || frase[i] == "i" || frase[i] == "o" || frase[i] == "u"|| frase[0] == "A" || frase[0] == "E" || frase[0] == "I" || frase[0] == "O" || frase[0] == "U")){
     document.write("<p>La letra " + i + " es una " + frase[i] + " es una vocal");
     }
      else {
